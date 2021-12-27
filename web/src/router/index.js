@@ -8,6 +8,7 @@ const Nofind = () => import('../views/404.vue')
 const Index = () => import('../views/index.vue')
 const Home = () => import('../views/home/Home.vue')
 const InfoShow = ()  => import('../views/home/InfoShow.vue')
+const pdfView = ()  => import('../views/home/pdfView.vue')
 
 // console.log(login);
 const routes = new Set([{
@@ -22,7 +23,8 @@ const routes = new Set([{
     children: [
         { path: '', component: Home },
         { path: '/home', name: 'home', component: Home },
-        { path: '/infoshow', name: 'infoshow', component: InfoShow }
+        { path: '/infoshow', name: 'infoshow', component: InfoShow },
+        { path: '/pdfView', name: 'pdfView', component: pdfView }
     ]
   },
   ...login

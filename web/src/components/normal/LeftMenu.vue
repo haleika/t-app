@@ -41,6 +41,12 @@ export default {
           name: "用户信息",
           path: "fund",
           children: [{ path: "infoshow", name: "详情" }]
+        },
+        {
+          icon: "fa-money",
+          name: "pdf查询",
+          path: "pdf",
+          children: [{ path: "pdfView", name: "详情" }]
         }
       ]
     };

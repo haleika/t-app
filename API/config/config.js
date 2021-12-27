@@ -5,7 +5,7 @@ const config = {
     db: {
         DATABASE: 'ybdb', //数据库名称
         USERNAME: 'root', //mysql用户名
-        PASSWORD: 'hyb12345', //mysql密码
+        PASSWORD: '123456', //mysql密码
         PORT: '3306', //mysql端口号
         HOST: 'localhost', //服务器ip
         dbDialect: 'mysql',
